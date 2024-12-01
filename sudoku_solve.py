@@ -62,6 +62,5 @@ board = [
 
 if solve_sudoku(board):
     print("YEAH!")
-    print_board(board)
 else:
     print("Cant not solve this sudoku!")
